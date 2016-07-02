@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 10, 2016, 4:48:01 AM
+    Author     : EduhG
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0px;
+    background-color: #3F7E47;
+}
+
+.container{
+    width: 100%;
+/*    background-color: #3498db;*/
+}
+
+.header{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+    font-size: 45px;
+    font-weight: bold;
+/*    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+    padding-bottom: 0px;*/
+}
+
+.sdg{
+    background-color: blue;
+    float: left;
+    width: 350px;
+    height: 100%;
+    background: url(SDG-logo_Advocates-01.jpg);
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+/*    position: relative;
+    float: left;
+    height: 100%;
+    width: 350px;
+    text-align: center;
+    background: url(SDG-logo_Advocates-01.jpg);
+    background-size: 350px 200px;
+    background-repeat: no-repeat;*/
+}
+.goal{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    margin-left: 350px;
+}
+.logo{
+    background-color: purple;
+    float: left;
+    width: 250px;
+    height: 100%;
+    background: url(css/sdg13.jpg);
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-right: 1px solid rgba(0,0,0, 0.3);
+/*    position: relative;
+    float: left;
+    height: 100%;
+    margin-left: 350px;
+    width: 250px;
+    text-align: center;
+    background: url(sdg13.jpg);
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-right: 1px solid rgba(0,0,0, 0.3);*/
+}
+.title{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    margin-left: 250px;
+/*    position: relative;
+    margin-left: 600px;
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid rgba(250,250,250, 0.3);*/
+}
+.content{
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-top: 1px solid rgba(250,250,250, 0.3);
+}
+
+.footer{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #3498db;
+}
